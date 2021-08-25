@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+	
+<html lang="pt" class="translated-ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<body>
+</head>
+<link rel="shortcut icon" href="ic_logotipo_br.png"/>
+<!-- meu css -->
+<link href="estilo.css" rel="stylesheet"/>
+
+</head>
+</body>
+<title>Apk-Editoror-Pro-Br</title>
+<script>
+	function function1()
+{
+alert("APK Editor Pro é super ferramenta que pode editar arquivos de extensão apk para fazer muitas coisas por diversão. Ele pode nos ajudar a traduzir texto, substituir ícones, redesenhar layouts, remover anúncios, remover limitações na versão gratuita, etc. O que ele pode fazer depende de como você o usa. No entanto, para usá-lo bem, precisamos de um pouco de habilidade profissional.");
+}
+</script>
+<div class="menu_principal">
+  <a id="menu" href="#casa">Casa</a>
+  <a  id="menu" href="#sobre" onclick="function1()">Sobre</a>
+  <div class="dropdown">
+    <button class="contato">Contatos 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="mailto:probrapkeditor@gmail.com">
+    <img class="gmail" src="ic_gmail.png"/>
+      <a id="menu" href="https://m.facebook.com/ApkEditorProBr/?tsid=0.2540637828571337&source=result">
+     <img class="gmail" src="ic_facebook.png"/>
+     <a id="menu" href="https://www.youtube.com/channel/UCY3-I5JUAOe3ukKn38ssu7Q">
+    <img class="youtube" src="ic_youtube.png"/>
+     </a>
+    </div>
+  </div> 
+</div>
+</body>
+<script>
+var acc = document.getElementsByClassName("contato","sobre","exemplo");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+      <img class="logotipo" src="logo_tipo.jpg">
+      <li class="lista">Anular exibição de anúncios</li>
+<div class="panel">
+  <p><b>Sobre:</b> ​​anular exibições de anúncios pode ser feita pelo manifesto do aplicativo ou seguindo alguns exemplos!</p>
+  
+<p><b>Passo 1 -</b> Instale o <b>"Dev Tools Pro"</b>, use para monitorar a atividade do aplicativo, inicie o aplicativo e clique em "Layout Inspector", abra o aplicativo do qual deseja remover o anúncio e a atividade responsável por exibir o anúncio a seguir o aplicativo "<b>"Dev Tools Pro"</b> exibirá o caminho e o nome do arquivo java que está reproduzindo o anúncio na tabela na frente de "Current Activity" pressione para copiar o caminho, mostrarei um exemplo "jp.sfapps.installbuttonunlocker.activity.MainActivity" aqui mostra o caminho e o arquivo que está exigindo um exemplo de anúncio, este é o caminho indica os diretórios "jp/sfapps/installbuttonunlocker/activity/" e a atividade é este arquivo /MainActivity.java/</p>
+
+<p><b>Passo 2 -</b> Cole o nome do arquivo na barra de pesquisa exemplo <b>"MainActivity"</b> em seguida selecione apenas <b>"aA"</b> e clique na lupa</p>
+
+<p><b>Passo 3 -</b> Agora você pode excluir o arquivo ou tentar remover os links de dentro do arquivo se você encontrar uma sequência de arquivos de extensão <b>".smali"</b> com o mesmo nome, por exemplo <b>"MainActivity$1"</b> <b>"MainActivity$2"</b> e <b>"MainActivity$3"</b> Você pode removê-los ou editá-los.</p>
+</div>
+</div>
+
+<li class="lista">Anular verificação de licença</li>
+<div class="panel">
+  <p><b>Sobre:</b> Anular verificação de licença; existem algumas maneiras de fazer isso!</p>
+  
+<p><b>Passo 1 -</b> Ao baixar o jogo ou aplicativo do site <b>"apkpure"</b>, você pode obter as bibliotecas padrão do aplicativo depois de baixar o jogo ou aplicativo se ele vier com a extensão <b>"xapk"</b> renomeie para apk ou zip.</p>
+
+<p>Por que o apkpure? este tipo de site compartilha aplicativos e jogos oficiais que não foram modificados antes</p>
+
+<p><b>Passo 2 -</b> Abrindo o arquivo apk ou zip você encontrará alguns arquivos de extensão apk, não se preocupe, irei explicar alguns deles <b>"base.apk"</b> este é o jogo ou aplicativo que será instalado em seu dispositivo android <b>"split_config.arm64_v8a.apk"</b> este arquivo armazena a biblioteca do jogo <b>"split_config.en.apk"</b> este arquivo armazena o idioma em inglês.</p>
+
+<p><b>Passo 3 -</b> O arquivo que você usará é o arquivo de biblioteca e, em seguida, extraia o diretório <b>"lib"</b> e, pelo Apk Editor Pro, crie o diretório <b>"lib"</b> e, dentro, crie <b>arm64-v8a</b> se a arquitetura for de 64 bits.</p>
+
+<p><b>Passo 4 -</b> clique em salvar no canto superior lado direito após completar a modificação clique em desinstalar e instalar e veja se funcionou
+</p>
+</div>
+</div>
+
+                            <li class="lista">Bíblioteca</li>
+<div class="panel">
+  <p>
+                            
+                            <p><b>Sobre:<a></b> Arquivos de biblioteca podem armazenar classes, e você também pode encontrar textos e valores, algumas bibliotecas estão diretamente vinculadas à atividade do aplicativo!</a></p>
+                            
+                            <a> Este arquivo é da arquitetura do seu telefone Android criado para cada tipo de dispositivo Android, ou seja, arquitetura <b>"arm64-v8a"</b> e <b>"armeabi-v7a"</b> ou <b>"armeabi"</b></a>
+                            
+                           <p><b>Aviso: <a></b> Este arquivo não pode ser editado com ferramentas comuns, caso contrário o arquivo será corrompido, e se por acaso o arquivo da biblioteca for editado corretamente usando a codificação <b>"windows-1250"</b> que está correta, ainda sim o <b>MD5</b> e <b>SHA-1</b> do arquivo serão alterados, tornando suas chances nulas!</a>
+</p>
+</div>
+</div>
+
+<li class="lista">Corregir erros</li>
+<div class="panel">
+  <p><b>Sobre:</b> Às vezes, recebemos notificações de erro como a que está abaixo, mas podemos consertar imediatamente!</p>
+  
+<p><b>/data/user/0/com.gmail.heagoo.apkeditor.pro/files/decoded/res/values/public.xml:9:</b><a> error: Public symbol </a><b>array/pref_tabsize_values</b> declared here is not defined.</p>
+
+<p><b>1 - </b>Alguns erros podem ser corrigidos com apenas uma edição! Clique em <b>"Selecine no aplicativo"</b></p>
+
+<p><b>2 - </b> Clique em  <b>"Decodificar arquivos parciais"</b></p>
+
+<p><b>3 - </b> Após fazer sua modificação, clique em <b>"Salvar"</b> no canto superior direito.</p>
+
+<p>O segundo exemplo também pode ajudar!</p>
+
+<p><b>1 - </b> Siga este caminho: <b>res/values/array/</b></p>
+
+<p><b>2 - </b>Substitua <b>&lt;style name=</b> por <b>&lt;array type="style" name="</b> em seguida clique em salvar</p>
+
+<p>O terceiro exemplo também pode ajudar!</p>
+
+<p><b>1 - </b>Abra o arquivo <b>AndroidManifest.xml</b></p>
+
+<p><b>2 - </b>Substitua <b>isSplitRequired</b> por <b>isStatic</b> e clique em salvar</p>
+</div>
+</div>
+
+<li class="lista">Corrigir aplicativo não instalado</li>
+<div class="panel">
+<p> Você pode corregir seguindo alguns exemplos!</p>
+
+<p><b>Passo 1 -</b> Baixe o jogo ou aplicativo do site do apkpure</p>
+
+<p><b>Passo 2 -</b> Após baixar, renomeie a extensão <b>"xapk"</b> para <b>"zip"</b> ou <b>"apk"</b></p>
+
+<p><b>Passo 3 -</b> Abra o arquivo cujo nome mudou a extensão</p>
+
+<p><b>Passo 4 -</b> Encontre o arquivo de biblioteca geralmente o nome é <b>"arm64-v8a"</b> <b>"armeabi-v7a"</b> ou <b>"armeabi"</b> se a arquitetura for 64 bits</p>
+
+<p><b>Passo 5 -</b> Usando o Apk Editor Pro, crie o diretório <b>"lib"</b> e dentro dele crie <b>"arm64-v8a"</b> <b>"armeabi-v7a</b> ou <b>"armeabi"</b> se for de 64 bits</p>
+
+<p><b>Passo 6 -</b> No canto superior clique em salvar após completar a modificação, clique em desinstalar e instalar e veja se funcionou</p>
+</br>
+<p>Você também pode tentar!</p>
+<p><b>Passo 1 -</b> Clique em <b>"Edição comum"</b></p>
+
+<p><b>Passo 2 -</b> Clique em <b>"Local da instalação"</b></p>
+
+<p><b>Passo 3 -</b> Você pode escolher entre <b>"padrão (não especificado)"</b> <b>"Automático (Os tomam decisão)"</b> <b>"Apenas interno"</b> <b>"Preferências externa"</b> e clique em Salvar</p>
+</br>
+<p>Você também pode tentar!</p>
+
+<p><b>Passo 1 -</b> Clique em <b>"Edição comum"</b></p>
+
+<p><b>Passo 2 -</b> Abaixo de <b>"Versão mínima do SDK"</b> Altere o valor  exemplo 14 para 16 ou 15 conforme desejado e clique em Salvar
+</p>
+</div>
+</div>
+
+<li class="lista">Tradução do arquivo strings.xml</li>
+<div class="panel">
+                            <p>Este tipo de tradução é simples, mas devemos ter cuidado, acompanhe!</p>
+                            
+                            <p><b> 1 -</b> Encontre o arquivo no diretório de recursos seguindo este caminho:<b>res/values /</b></p>
+                            
+                            <p><b>2 -</b> Extraia o arquivo <b>"strings.xml"</b> para seu armazenamento interno ou cartão SD!</p>
+                            
+                            <p><b>3 -</b> Abrindo o arquivo você encontrará os vetores, um que começa <b>"&lt;string&gt;"</b> e outro que termina <b>"&lt;/string&gt;"</b> Você pode começar traduzindo os textos, que estão entre eles!</p>
+                            
+                            <p><b>4 -</b> Você deve ter cuidado com os vetores de caracteres como por exemplo este <b>"%s"</b> você não pode separar <b>"%"</b> de <b>"s"</b> porque após o aplicativo imprimir o texto se os vetores de caracteres não estiverem unidos corretamente o aplicativo vai entrar em colapso!</p>
+                            
+                            <p><b>5 -</b> Após traduzir volte no aplicativo e no diretório de recursos crie o diretório para o idioma português usando o código <b>"-pt"</b> ou seja <b>"values-pt"</b></p>
+</div>
+</div>
+
+<li class="lista">O que é um arquivo de extensão dex?</li>
+<div class="panel">
+                            <p>Um arquivo dex é a parte principal do aplicativo, ele pode conter código java, mas compilado!</p>
+</div>
+</div>
+
+<li class="lista">O que é um arquivo resources.arsc?</li>
+<div class="panel">
+                            <p>Este arquivo é o diretório de recursos em inglês que chamamos de <b>"res"</b></p>
+</div>
+</div>
+
+<li class="lista">O que é um arquivo AndroidManifest.xml?</li>
+<div class="panel">
+                            <p>Este arquivo é responsável pela permissões exigidas e também pela atividade do aplicativo, etc...</p>
+</div>
+</div>
+
+<li class="lista">O que é um arquivo Patch?</li>
+<div class="panel">
+                            <p>Um patch é um pacote projetado para instalar modificações automatizadas, isso significa que um patch como <b>"patch_my_font.zip"</b> mudará a fonte de qualquer aplicativo sem que você precise mover arquivos ou alterar o arquivo <b>AndroidManifest.xml</b></p>
+</div>
+</div>
+
+<li class="lista">Tradução de arquivo arrays.xml</li>
+<div class="panel">
+  <p>A tradução do arquivo arrays.xml é similar ao do arquivo strings xml</p>
+<p><b>Passo 1- </b>Encontre o arquivo seguindo este caminho:res/values/arrays.xml</p>
+
+<p><b>Passo 2- </b>Extraía para seu armazenamento interno ou no seu cartão SD<p>
+	
+<p><b>Passo 3- </b>Usando o Apk Editor Pro crei um diretório dentro do diretório de recursos usando o código "-pt" ou seja "values-pt"<p>
+
+<p><b>Passo 4- </b>O arquivo arrays.xml que você extraiu importa para o diretório que você criu <p>
+
+<p><b>Aviso- </b>Abrindo o arquivo você pode renomear algumas palavras que estão na cor branca.<p>
+</p>
+</div>
+</div>
+
+<li class="lista">Tradução de Arquivos .html</li>
+<div class="panel">
+  <p>HTML é como um arquivo de layout, acompanhe!</p>
+                            
+                            <p><b>1 -</b> O primeiro passo é encontrar o arquivo, você pode encontrá-lo dentro do diretório de recursos seguindo este caminho:<b>res/raw/</b> ou em <b>"/assets/"</b></p>
+                            
+                            <p><b>2 -</b> Extraia o arquivo ou arquivos <b>"html"</b> para seu armazenamento interno ou cartão SD!</p>
+                            
+                            <p><b>3 -</b> Abrindo o arquivo html você encontrará vários vetores um que começa <b>"&lt;p&gt;"</b> e outro que termina <b>"&lt;/p&gt;"</b> aqui estão outros exemplos <b>"&lt;a&gt;"</b> <b>"&lt;/a&gt;"</b> <b>"&lt;li&gt;"</b> <b>"&lt;/li&gt;"</b> você não deve dar importância a isso apenas aos textos porque esses vetores têm a função de organizar os textos!</p>
+                            
+                            <p><b>4 -</b> Você pode começar traduzindo os textos que estão dentro dos vetores!</p>
+
+<p>Se você estiver tendo problemas como um arquivo criptografado ou um arquivo hospedado em um site da Web, há duas maneiras de resolver esse problema.</p>
+                            
+                            <p>Arquivo codificado podemos usar o aplicativo <b>"QuickEdit"</b> para visualizar o html pelo navegador, para que possamos traduzir e baixar o arquivo traduzido!</p>
+                            
+                            <p>Arquivos hospedados podemos encontrar o link dentro do arquivo apk, então podemos baixar o arquivo hospedado e substituir o link por <b>"file:///android_res/raw/nome.html"</b> e então criamos um diretório com o nome <b>"raw"</b>, mas se for para a língua portuguesa usamos o código <b>"-pt"</b> ou seja <b>"raw-pt"</b>.</p>
+</div>
+
+<li class="lista">Traduzir strings em arquivos .dex</li>
+<div class="panel">
+  <p>Traduzir strings em arquivos .dex pode ser um processo demorado, mas se você preferir, aqui estão as instruções!</p>
+  
+<p><b>Passo 1 -</b>No Apk Editor ou Pro, clique em "Selecionar no aplicativo"</p>
+
+<p><b>Passo 2 -</b>Clique em "Edição completa"</p>
+
+<p><b>Passo 3 -</b>Clique em "Decodificar arquivos parciais"</p>
+
+<p><b>Passo 4 -</b>Clique em "smali"</p>
+	
+<p><b>Passo 5 -</b>Na barra de pesquisa digite <b>"const-string v"</b> e clique na lupa</p>
+
+<p>Você pode traduzir os textos que estão entre aspas, mas isso pode demorar muito ou se você preferir pode usar o <b>"MT Manager"</b> mas não recomendo fazer uma tradução automática porque o aplicativo pode entrar colapso!
+</p>
+</div>
+</div>
+
+<li class="lista">Ferramentas para Auxiliar</li>
+<div class="panel">
+
+                            <p id="dex">Atualmente uso!</p>
+                            
+                            <p><b>1 -</b> Apk Editor - Editor de arquivo apk mais sem edição  arquivo dex</p>
+                            
+                            <p><b>2 -</b> Apk Editor Pro Br - Editor de arquivo apk</p>
+                            
+                            <p><b>3 -</b> QuickEdit - Editor de arquivos</p>
+                            
+                            <p><b>4 -</b>  Binary Hex Converter - para obter valores hex</p>
+                
+                            <p><b>5 -</b>  StringsXML Translator - para tradução automática de arquivos strings.xml</p>
+                            
+                            <p><b>6 -</b>  Dalvik Bytecode Editor - para editar e hackear arquivos de extensão .apk ou arquivos adicionais</p>
+                            
+                            <p><b>7 -</b>  Dev Tools Pro - para encontrar a atividade atual da tela</p>
+                            
+                            <p><b>8 -</b>  ES File Explorer - para organizar arquivos ou para abri-los</p>
+                
+                            <p><b>9 -</b>  UTF-8 Converter - para escrever ou obter textos e caracteres unicode!</p>
+                            
+                            <p><b>10 -</b>  Hack App Data - para hackear jogos</p>
+                            </br>
+                            
+                            <p>Apk Editor Pro Br: <a href="https://www.mediafire.com/file/guwte6hrzk16cqj/Apk_Editor_Pro_Br.apk/file">Baixar</a></p>
+                            
+                            <p>Apk Editor<a href="https://www.mediafire.com/file/3ry1ye6ukmyhspi/apk_editor_v.1.8.8.apk/file"> Baixar</a></p>
+                            
+                            <p>QuickEdit - Editor: <a href="https://m.apkpure.com/br/quickedit-text-editor-writer-code-editor/com.rhmsoft.edit/download?from=details"> baixar</a></p>
+                
+                            <p>Binary Hex Converter: <a href="https://m.apkpure.com/br/binary-hex-converter/com.deve.binaryhexconverter/download?from=details"> Baixar</a></p>
+                            
+                            <p>StringsXML Translator: <a href="https://m.apkpure.com/br/stringsxml-translator/com.kproject.stringsxmltranslator/download?from=details"> Baixar</a></p>
+                            
+                            <p>Dalvik Bytecode Editor: <a href="https://www.mediafire.com/file/bp72zgob40d2qb3/Dalvik_Bytecode_Editor_v1.3.0.apk/file"> Baixar</a></p>
+                            
+                            <p>Dev Tools Pro: <a href="https://www.mediafire.com/file/7sm62cjkbesjui4/Dev_Tools_Pro_v5.11.0.apk/file"> Baixar</a></p>
+                
+                            <p>ES File Explorer: <a href="https://m.apkpure.com/br/es-file-explorer-file-manager/com.estrongs.android.pop/download?from=details"> Baixar</a></p>
+                            
+                            <p>UTF-8 Converter: <a href="https://m.apkpure.com/br/utf-8-converter/com.leechunhoe.utf8converter/download?from=details"> Baixar</a></p>
+                            
+                            <p>Hack App Data: <a href="https://www.mediafire.com/file/juuk597d9t0lzl8/Hack_App_Data_v1.6.4.apk/file">Baixar</a></p>
+</div>
+</div>
+
+<li class="lista">Hackear jogos</li>
+<div class="panel">
+<p>Existem muitas maneiras de hackear jogos; uma delas são</p>
+
+<p><b>1 - </b>Alternando os valores hex que você pode encontrar em arquivos de atividades</b></p>
+
+<p><b>2 - </b>Modificando o arquivo de biblioteca que você pode encontrar deb>ro do diretório <b>"lib"</b></p>
+
+<p><b>3 - </b>Modificando arquivos <b>"json"</b> ou <b>"txt"</b> que podem ser encontrados no diretório <b>"/assets/"</b></p>
+
+<p><b>Exemplos - </b>Pesquise por nome de dinheiro ou valor</p>
+
+<p>Normalmente os nomes são <b>"coin"</b> <b>"gemas"</b> <b>"diamonds"</b> <b>"silver"</b> <b>"gold"</b> etc...</p>
+
+<p><b>Valor hex - </b>O valor hex é uma forma de codificar o valor decimal e o valor decimal é o que é exibindo na tela por exemplo <b>"50"</b> em decimal é <b>"50"</b> e <b>"50"</b> em hex é <b>"32"</b> ou seja é o mesmo valor, mas em outra codificação!
+</p>
+</div>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("lista");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</html>
