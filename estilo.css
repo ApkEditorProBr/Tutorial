@@ -4,7 +4,7 @@ body {
 
 .menu_principal {
   overflow: hidden;
-  background-color: 28649C;
+  background-color: #28649C;
 }
 
 .menu_principal a {
@@ -67,7 +67,7 @@ body {
 }
 .lista {
   background-color: white;
-  color: 28649C;
+  color: #28649C;
   cursor: pointer;
   padding: 18px;
   width: 929px;
