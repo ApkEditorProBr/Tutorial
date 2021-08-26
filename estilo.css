@@ -74,7 +74,7 @@ body {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 10px;
+  font-size: 18px;
   transition: 0.4s;
 }
 
@@ -88,17 +88,17 @@ body {
   background-color: none;
   overflow: hidden;
 }
-a {
-  font-size: 7px;
+.a {
+  font-size: 16px;
   font-family: serif;
 }
 
-b {
-  font-size: 7px;
+.b {
+  font-size: 18px;
   font-family:serif;
 }
-p {
-  font-size:8px;
+.p {
+  font-size:16px;
   font-family:serif;
 }
 .logotipo {
@@ -122,17 +122,14 @@ p {
   100% {stop;}
 }
 .gmail {
-  border-radius: 60%;
   width: 70px;
   height: 70px;
 }
 .facebook {
-	border-radius: 60%;
 	width: 10px;
      height: 10px;
 }
 .youtube {
-	border-radius: 60%;
 	width: 70px;
      height: 70px;
 }
